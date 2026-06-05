@@ -1,2 +1,2 @@
 # Data-Science-Projects
-Collection of Data Science  &amp; AI projects. 
+Collection of Data Science, ML &amp; AI projects. 
