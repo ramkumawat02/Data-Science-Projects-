@@ -1,0 +1,14 @@
+{
+  "handoff_view": "safe",
+  "features": [
+    "age",
+    "gender_num"
+  ],
+  "target": "mortality",
+  "rows": 94458,
+  "columns": [
+    "age",
+    "gender_num",
+    "mortality"
+  ]
+}

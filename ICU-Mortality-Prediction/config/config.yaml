@@ -1,0 +1,6 @@
+data_path: data/processed/icu_features.csv
+
+model:
+  hidden_size: 64
+  epochs: 10
+  batch_size: 32

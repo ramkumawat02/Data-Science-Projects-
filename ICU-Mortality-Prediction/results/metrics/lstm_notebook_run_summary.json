@@ -1,0 +1,57 @@
+{
+  "seed": 42,
+  "split_mode": "grouped_by_subject_id",
+  "n_train": 1370,
+  "n_val": 315,
+  "n_test": 419,
+  "thresholds": {
+    "LSTM": 0.75,
+    "LogisticRegression": 0.6,
+    "HistGradientBoosting": 0.4
+  },
+  "holdout_metrics": [
+    {
+      "model": "LSTM",
+      "roc_auc": 0.7951571305759862,
+      "roc_auc_ci95": "[0.736, 0.851]",
+      "pr_auc": 0.44786689418495784,
+      "pr_auc_ci95": "[0.326, 0.573]",
+      "f1": 0.38095238095238093,
+      "threshold": 0.75
+    },
+    {
+      "model": "LogisticRegression",
+      "roc_auc": 0.7780112713726238,
+      "roc_auc_ci95": "[0.714, 0.840]",
+      "pr_auc": 0.41796309732773906,
+      "pr_auc_ci95": "[0.294, 0.556]",
+      "f1": 0.44776119402985076,
+      "threshold": 0.6
+    },
+    {
+      "model": "HistGradientBoosting",
+      "roc_auc": 0.7683637405673893,
+      "roc_auc_ci95": "[0.702, 0.833]",
+      "pr_auc": 0.4540696068191634,
+      "pr_auc_ci95": "[0.336, 0.585]",
+      "f1": 0.4067796610169492,
+      "threshold": 0.4
+    }
+  ],
+  "cv_summary": [
+    {
+      "model": "HistGradientBoosting",
+      "roc_auc_mean": 0.797916431109112,
+      "roc_auc_std": 0.04368538558944508,
+      "pr_auc_mean": 0.44288050089716613,
+      "pr_auc_std": 0.06317548762429123
+    },
+    {
+      "model": "LogisticRegression",
+      "roc_auc_mean": 0.7951292847731615,
+      "roc_auc_std": 0.04180093045760421,
+      "pr_auc_mean": 0.4096233699299881,
+      "pr_auc_std": 0.05844995457053629
+    }
+  ]
+}

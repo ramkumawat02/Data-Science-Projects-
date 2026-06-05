@@ -1,0 +1,20 @@
+.DS_Store
+
+# Python environments and caches
+venv/
+.venv/
+env/
+.conda/
+__pycache__/
+*.py[cod]
+
+# Notebook and tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Large or private raw datasets
+data/mimic-iv-3.1/
+
+# Local training outputs that may be regenerated
+logs/

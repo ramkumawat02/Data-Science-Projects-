@@ -1,0 +1,28 @@
+{
+  "handoff_view": "safe",
+  "features": [
+    "age",
+    "gender",
+    "heart_rate",
+    "sbp",
+    "dbp",
+    "mbp",
+    "resp_rate",
+    "spo2",
+    "temperature"
+  ],
+  "target": "mortality",
+  "rows": 90588,
+  "columns": [
+    "age",
+    "gender",
+    "heart_rate",
+    "sbp",
+    "dbp",
+    "mbp",
+    "resp_rate",
+    "spo2",
+    "temperature",
+    "mortality"
+  ]
+}
